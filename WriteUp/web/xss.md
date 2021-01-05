@@ -44,7 +44,7 @@
 
   1. 反射型（不储存于服务器，非持久）
   2. 储存性（粗存于服务器，持久性）
-  3. DOM型（改变DOM结构）（DOM本身代表文档，给予DOM型的XSS不需要与服务器交互，只发生在客户端处理数据阶段）![xss_type_DOM](https://github.com/lrq12349306/ctf/blob/main/picture/xss_type_DOM.png)
+  3. DOM型（改变DOM结构）（DOM本身代表文档，给予DOM型的XSS不需要与服务器交互，只发生在客户端处理数据阶段）![](https://github.com/lrq12349306/ctf/blob/main/picture/xss_type_DOM.png)
 
 - ## 漏洞利用
 
@@ -236,7 +236,7 @@
   
     [html实体码转码](https://www.qqxiuzi.cn/bianma/zifushiti.php "实体码，记得预留字符转命名实体")
   
-    ![image-20201229232607711](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201229232607711.png)
+    ![](https://github.com/lrq12349306/ctf/blob/main/picture/xss_html_decode.png)
 
   
 
@@ -294,7 +294,7 @@
 
 html解码 ---> JavaScript解码 ---> url解码 ---> 发送http请求
 
-![image-20201229223632254](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201229223632254.png)
+![](https://github.com/lrq12349306/ctf/blob/main/picture/xss_html_DecodeOrder.png)
 
 
 ### 5. 使用IP
